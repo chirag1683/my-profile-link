@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fc466b, #3f5efb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn img {
+  width: 22px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+  margin-top: 40px;
+  font-family: 'Cursive', sans-serif;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.projects a {
+  background: white;
+  color: black;
+  padding: 12px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.projects a:hover {
+  background: #eee;
+  transform: scale(1.05);
+}
