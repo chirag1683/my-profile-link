@@ -1,5 +1,4 @@
 # my-profile-link
-This is a beautiful and responsive Social ID website built using HTML, CSS, and JavaScript. It serves as a personal profile hub where users can list and link to their social media accounts — like a mini portfolio or digital business card.
+This is a simple and elegant Social ID website built using pure HTML and CSS. The purpose of this website is to serve as a personal profile or link hub, similar to Linktree, where users can showcase their social media links, GitHub profile, and other web identities in one place.
 
-As a Web Developer, I created this project to showcase clean UI design, responsiveness, and interactivity using only front-end web technologies.
-
+As a Web Developer, I created this project to demonstrate basic front-end development skills, clean UI design, and responsive layout using only HTML and CSS — without any frameworks or JavaScript.
